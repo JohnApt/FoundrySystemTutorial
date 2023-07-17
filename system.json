@@ -1,0 +1,43 @@
+{
+	"id": "FoundrySystemTutorial",
+	"title": "Foundry System Tutorial",
+	"description": "This is a tutorial system for Foundry VTT. It is intended to be used as a template for creating your own systems.",
+	"version": "0.0.1",
+	"compatibility": {
+		"minimum": "11",
+		"verified": "11",
+		"maximum": "11"
+	},
+	"authors": [
+		{
+			"name": "John Apt",
+			"url": "https://github.com/JohnApt",
+			"email": "jwa824@hotmail.com"
+		}
+	],
+	"esmodules": [
+		"scripts/system-module-1.mjs"
+	],
+	"styles": [
+		"styles/system-styles.css"
+	],
+	"packs": [],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+	"initiative": "1d20 + @baseInitiative + @initiativeBonus",
+	"gridDistance": 5,
+	"gridUnits": "ft",
+	"primaryTokenAttribute": "resources.health",
+	"secondaryTokenAttribute": "resources.energy",
+
+	"socket": false,
+	"url": "https://github.com/JohnApt/FoundrySystemTutorial",
+	"background": "systems/mysystem/assets/splash.webp",
+	"manifest": "https://github.com/JohnApt/FoundrySystemTutorial/system.json",
+	"download": "https://your/packaged/download/archive.zip"
+}
